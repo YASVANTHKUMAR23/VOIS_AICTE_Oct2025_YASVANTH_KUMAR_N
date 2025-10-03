@@ -3,47 +3,77 @@
 
 Airbnb Hotel Booking Analysis
 
-📖 Project Description
+VOIS_AICTE_Oct2025_YASVANTH_KUMAR_N
 
-This project focuses on performing Exploratory Data Analysis (EDA) and data visualization on a large Airbnb dataset (~74K records, 29 columns).
-The objective is to uncover patterns in pricing, property types, room categories, neighborhoods, reviews, and host policies to help stakeholders make data-driven decisions.
+📖 Project Overview
 
-The project is developed as part of the VOIS–AICTE Internship Program (Oct 2025) by Yasvanth Kumar N.
+This project is part of the VOIS–AICTE Internship (Oct 2025). It focuses on Exploratory Data Analysis (EDA) and visualization of Airbnb booking data. The dataset contains ~74,000 records with 29 features covering property details, room types, amenities, prices, reviews, and locations.
+
+The main goal is to uncover patterns, correlations, and insights in pricing, neighborhood demand, property preferences, and guest behavior.
 
 🎯 Objectives
 
-Understand the structure and quality of Airbnb booking data.
+Perform data cleaning and preprocessing.
 
-Perform detailed EDA on key features (price, property type, room type, reviews, neighborhood).
+Explore univariate and bivariate distributions.
 
-Visualize trends and relationships using Matplotlib & Seaborn.
+Analyze pricing, room types, and review trends.
 
-Identify insights for hosts, guests, and policymakers.
+Visualize patterns using Matplotlib & Seaborn.
 
-Document findings for academic and professional presentation (PPT).
+Present findings through Jupyter Notebook & PPT.
 
 👥 End Users
 
-Hosts & Property Managers – optimize pricing & improve occupancy.
+Hosts & Property Managers – optimize pricing and amenities.
 
-Travelers – informed booking decisions.
+Guests / Travelers – make informed booking decisions.
 
-Tourism Boards / Policymakers – urban planning & tourism insights.
+Tourism Boards & Policymakers – understand rental and neighborhood trends.
 
-Data Analysts / Researchers – hospitality trends & customer behavior.
+Data Analysts & Researchers – study short-term rental patterns.
 
-🛠️ Technology & Tools Used
+🛠️ Technologies & Tools
 
-Programming & Analysis: Python (Pandas, NumPy, Matplotlib, Seaborn)
+Programming & Libraries: Python, Pandas, NumPy, Matplotlib, Seaborn
 
 Development Environment: Jupyter Notebook, Google Colab
 
-AI Tools:
-
-ChatGPT – research & documentation
-
-Julius AI – automated data analysis & visualization
+AI Support Tools: ChatGPT (research & documentation), Julius AI (EDA & visualization support)
 
 Dataset Source: Public Airbnb Open Data (CSV)
 
 Version Control: Git & GitHub
+
+📂 Repository Structure
+VOIS_AICTE_Oct2025_YASVANTH_KUMAR_N/
+│── data/                # Airbnb dataset (CSV)
+│── notebooks/           # Jupyter notebooks with EDA
+│── outputs/             # Visualizations & analysis results
+│── ppt/                 # Final presentation slides
+│── README.md            # Project documentation
+
+🚀 How to Run the Project
+
+Clone the repository:
+
+git clone https://github.com/<your-username>/VOIS_AICTE_Oct2025_YASVANTH_KUMAR_N.git
+cd VOIS_AICTE_Oct2025_YASVANTH_KUMAR_N
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Open the notebook:
+
+jupyter notebook notebooks/Airbnb_EDA.ipynb
+
+📊 Key Deliverables
+
+Detailed EDA with visualizations.
+
+Professional PPT presentation.
+
+Clean, reproducible GitHub repository.
